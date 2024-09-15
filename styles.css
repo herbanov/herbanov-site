@@ -1,0 +1,24 @@
+body {
+  background-color: #b82725;
+  width:800px;
+  margin:0 auto;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-align: justify;
+  text-justify: auto;
+}
+
+h1 {
+  color: #330100;
+  font-size: 50px;
+}
+p {
+  color: black;
+  font-size: 24px;
+}
+@keyframes example {
+  from {background-color: #b32d2b;}
+  to {background-color: #c77877;}
+}	
