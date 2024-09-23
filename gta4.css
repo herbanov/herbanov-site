@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: #330100;
+  font-size: 50px;
+}
+p {
+  color: black;
+  font-size: 24px;
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+}	
